@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+    background: #f2f2f2;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url("images/background\ image\ 2.jpg");
+    background-size: 1500px;
+    background-position: center;
+    /* height:100vh;
+    width: 100%; */
+        }
+        nav{
+    background: rgba(24, 24, 37, 0.979);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    /* padding: 0 100px; */
+
+}
+/* nav .logo{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -1px;
+} */
+nav .nav-items {
+    display: flex;
+    flex: 1;
+    padding: 0 0 0 40px;
+}
+nav .nav-items li {
+    list-style: none;
+    padding: 0 15px;
+}
+nav .nav-items li a{
+    color: rgb(136, 121, 121);
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    
+}
+nav .nav-items :hover{
+    color: #6ef3f3;
+    cursor: pointer;
+}
+nav form{
+    display: flex;
+    height: 40px;
+    padding: 2px;
+    background: #171b1f;
+    min-width: 18%!important;
+    border: 1px solid rgb(155,155,155,0.2);
+    border-radius: 36px;
+}
+nav form .search-data{
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    font-weight: 500;
+    background: none;
+}
+nav form button{
+    padding: 0 15px;
+    color: #fff;
+    font-size: 17px;
+    background: #26d63b;
+    border: none;
+    border-radius: 2px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    cursor: pointer;
+    transition: .2s all;
+}
+nav form button:hover{
+    background: #2b9;
+}
+nav .menu-icon,
+nav .cancel-icon,
+nav .search-icon{
+    width: 40px;
+    text-align: center;
+    margin: 0 50px;
+    font-size: 18px;
+    color: rgb(17, 17, 17);
+    cursor:pointer;
+    display: none;
+}
+nav .menu-icon span,
+nav .cancel-icon,
+nav .search-icon{
+    display: none;
+}
+
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+.pan{
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+}
+h2{
+    color: blueviolet;
+}
+.paran{
+    font-family: sans-serif;
+    color: #fff;
+}
+.long{
+    font-family: sans-serif;
+    color: rgb(146, 233, 248);
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="menu-icon">
+            <span class="fas fa-bars"></span>
+        </div>    
+        <div>
+            <img class="nap" src="images/background image 8.jpg" height="70" width="100">
+        </div>
+        <div class="nav-items">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="bedroom.html">BEDROOM</a></li>
+            <li><a href="kitchen.html">DINING</a></li>
+            <li><a href="dining.html">KITCHEN</a></li>
+            
+        </div>
+        <div class="search-icon">
+            <span class="fas fa-search"></span>
+        </div>
+        
+        </div>
+        <div class="cancel-icon">
+            <span class="fas fa-times"></span>
+        </div>
+
+        <form action="#">
+            <input type="search" class="search-data" placeholder="search" required>
+            <button type="submit" class="fas fa-search"></button>
+        </form>
+    </nav>
+
+
+    <h1>MENU</h1>
+    <p class="pan">In menu we have only 3 varieties bedroom, Dining  area & kitchen design<br>
+        If you Support us we will make more varieties for you
+    </p>
+    <br>
+    <h2>Bedroom :</h2>     
+    <p class="paran">Bedroom is primarily used for sleeping, resting, personal care, storing clothes, dressing/undressing. <br>
+        This means, it has to be a very private space away from the common rooms, which are meant for<br>
+        entertaining guests There are different types of bedrooms severing a different set of occupants<br>
+        and they require different types of bedroom furniture pieces accordingly.<br>
+    </p>
+    <p class="long">In bedroom design we have 6 varieties: </p>    
+    <p class="long"> 
+       1: Master Bedroom<br />
+       2: Kids’ Bedroom<br />
+       3: Guest Bedroom<br />
+       4: Grandparents’ Bedroom<br />
+       5: Teens’ Bedroom<br />
+       6: Dorm Bedroom<br />
+    </p>
+    <h2>Kitchen :</h2>
+    <p class="paran"> You don’t have to worry about the space for a modular kitchen, either small or large, its suit for <br />
+        every size of the kitchen. The reason is a modern kitchen has lots of features according to your<br />
+         needs! It is a ready-made kitchen cabinet parts, and these parts are required to install!
+    </p>
+    <p class="long">In kitchen design we have 4 varieties:</p>
+    <p class="long">
+        1: Straight Modular Kitchen / Single Wall Modular Kitchen<br />
+        2: Gallery Modular Kitchen / Parallel Modular Kitchen / Corridor Modular Kitchen<br />
+        3: Island Modular Kitchen<br />
+        4: Peninsula / G-shaped Modular Kitchen<br />
+    </p>
+    <h2>Dining Area :</h2>
+    <p class="paran"> Your dining room is a space that’s right at the heart of your home. This is where your family<br />
+         gathers together for mealtimes, and it’s where they share good food and tidbits about their day.<br />
+         Shared meals and warm conversations nurture comfort, and as such this room is very important to<br />
+         your family togetherness.
+    </p>
+
+
+
+
+
+</body>
+</html>
